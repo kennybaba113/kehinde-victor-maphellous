@@ -1,38 +1,35 @@
+# 🌐 Kehinde Victor Maphellous – Personal Web Project
 
-# 👋 Hi there, I'm Kehinde Victor Maphellous
-
-💻 **Front-End Web Developer** | Passionate about building clean, responsive, and user-friendly websites.
-
----
-
-### 🌱 About Me
-- 🌍 From **Nigeria** 🇳🇬  
-- 🧠 Currently learning **HTML, CSS, JavaScript**, and responsive web design  
-- ⚙️ Exploring **GitHub**, version control, and open-source collaboration  
-- 🎯 Goal: To become a full-stack web developer and build impactful digital products  
-- 🕹️ Fun fact: I enjoy coding at night and learning new tech every day
+This project is a simple and responsive personal web page designed to showcase my profile, skills, and portfolio as a **web developer**.  
+It demonstrates my growing skills in **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
-### 🛠️ Tech Stack
-- **Languages:** HTML, CSS, JavaScript  
-- **Tools:** VS Code, Git, GitHub  
-- **Learning:** React, Tailwind CSS  
+## 🚀 Features
+- Responsive design (works on phone and desktop)
+- Clean and modern layout
+- Simple navigation bar
+- About section introducing me
+- Contact section with links to connect
 
 ---
 
-### 📫 Connect With Me
-- 📧 Email: *kehindevictor70@gmail.com*  
-- 🌐 Portfolio: *(Coming soon)*  
-- 💬 WhatsApp (Business): *+234 XXX XXX XXXX*  
+## 🛠️ Technologies Used
+- **HTML5** for structure  
+- **CSS3** for styling and responsiveness  
+- **JavaScript** for interactivity  
 
 ---
 
-### 📊 GitHub Stats
-![Kehinde's GitHub stats](https://github-readme-stats.vercel.app/api?username=maphellous&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maphellous&layout=compact&theme=tokyonight)
+## 📸 Screenshots
+(Add your project screenshots here)  
+Example:  
+![Project Screenshot](img/screenshot.png)
 
 ---
 
-⭐ **“Keep learning, keep building, and stay consistent.”**
+## 📂 How to View
+You can view the project by:
+1. Downloading or cloning the repository:
+   ```bash
+   git clone https://github.com/kennybaba113/kehinde-victor-maphellous.git
