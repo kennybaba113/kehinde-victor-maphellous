@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+
+     <div class="background-section">
+
+
+        <nav class="navbar navbar-expand-lg shadow-sm navbar-custom">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- 🔹 Logo Section -->
+      <a class="navbar-brand" href="#">
+        <div class="logo-section">
+          <img src="img/ChatGPT Image Oct 23, 2025, 10_21_31 AM.jpg" alt="img/ChatGPT Image Oct 23, 2025, 10_21_31 AM.jpg">
+          <div>
+            <p class="logo-subtext mb-0">Liceria Co.</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- 🔹 Nav Links -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav d-flex align-items-center ">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Location</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+   
+   
+
+  <!-- Booking Form Section -->
+  <div id="booking-form" class="card booking-card">
+    <div class="card-header">
+      <i class="bi bi-calendar-check"></i> Quick Booking
+    </div>
+    <div class="card-body">
+      <form action="#" method="POST">
+        <div class="mb-3">
+          <label for="location" class="form-label">Location</label>
+          <input type="text" class="form-control" id="location" name="location" placeholder="Enter destination" required>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="checkin" class="form-label">Check-In</label>
+            <input type="date" class="form-control" id="checkin" name="checkin" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="checkout" class="form-label">Check-Out</label>
+            <input type="date" class="form-control" id="checkout" name="checkout" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <label for="rooms" class="form-label">Rooms</label>
+            <select class="form-select" id="rooms" name="rooms" required>
+              <option selected disabled>Choose...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4+</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="adults" class="form-label">Adults</label>
+            <select class="form-select" id="adults" name="adults" required>
+              <option selected disabled>Choose...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4+</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="children" class="form-label">Children</label>
+            <select class="form-select" id="children" name="children" required>
+              <option selected disabled>Choose...</option>
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3+</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 🔹 Submit Button -->
+        <div class="d-grid">
+          <button type="submit" class="btn btn-book btn-lg text-white mt-3">Book Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+     </div>
+        
+       
+     <script src="js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
